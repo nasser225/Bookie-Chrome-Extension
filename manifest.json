@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Bookie - Automated Bookmark Opener",
+    "version": "0.3",
+    "description": "We're all busy but often stumble on great websites! Use Bookie to bookmark pages to open them when most convenient for you!",
+    "options_page": "options.html",
+    "author": {
+        "email": "tooldev.nasser@gmail.com"
+      },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "icons":{
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "action":{
+        "default_icon": "icon16.png",
+        "default_popup": "bookie_popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "notifications"
+    ]
+}

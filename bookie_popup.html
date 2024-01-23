@@ -1,0 +1,46 @@
+<!-- Author: tooldev.nasser@gmail.com -->
+<!DOCTYPE html>
+<html lang="en" style="min-width:300px;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=500, initial-scale=1.0">
+        <link rel="stylesheet" href="popup-stylesheet.css">
+        <title>Bookie - automated bookmark manager</title>
+    </head>
+    <body>
+        <h3 id="pageHead">New Bookmark:</h3>
+        <h3 id="pageTitle"></h3>
+        <table style="border: 5px;">
+            <tr>
+                <td align="center">
+                    <input id="dateEntryField" type="date"  />
+                    <br />
+                    <input id="timeEntryField" type="time" />
+                </td>
+                <td align="center">
+                    <h3>Or open in..</h3>
+                    <select id="quickSet">
+                        <option value="0" selected> ...</option>
+                        <option value="5">5 mins</option>
+                        <option value="15">15 mins</option>
+                        <option value="30">30 mins</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <button id="submitBtn" type="button" class="btn">Schedule this bookmark!</button>
+        <br />
+        <br />
+        <a href="options.html" target="_blank"><button id="viewAllBtn" type="button">View all bookmarks</button></a>
+        <!-- <a href='https://www.freecodecamp.org/'><button>Link To freeCodeCamp</button></a> -->
+        <!-- <h3><a href="mailto: tooldev.nasser@gmail.com">Give feedback</a></h3> -->
+        <br />
+        <h4 id="versionTextLink"></h4>
+        <!-- <a href="mailto: tooldev.nasser@gmail.com"></a> -->
+        <br />
+        <a href="https://www.buymeacoffee.com/tooldev.nasser" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Support Bookie!&emoji=&slug=tooldev.nasser&button_colour=BD5FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" align="right"/></a>
+        <!-- Load JS -->
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+/* Author: tooldev.nasser@gmail.com */
+
+/* General */
+body{
+    background-image: url('popup-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h3
+{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+#pageHead
+{
+    color: lightgrey;   
+}
+
+.input{
+    text-align: center;
+}
+
+/* Table  */
+
+table{
+    border-collapse: separate;
+    border-spacing: 5px;
+    table-layout: fixed;
+}
+
+td {
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    background-color: lightsteelblue;
+    opacity: 90%;
+}
+
+/* ids / classes */
+#dateEntryField
+{
+    display: block;
+    padding-bottom: 1px;
+    border-radius: 8px;
+    border-color: white;
+    background: white;
+    height: 20px;
+    width: 100%;
+}
+
+#timeEntryField
+{
+    border-radius: 8px;
+    border-color: white;
+    background: white;
+    height: 20px;
+    width: 100%;
+}
+
+#quickSet
+{
+    border-radius: 8px;
+    border-color: white;
+    background: white;
+    height: 20px;
+    width: 125px;
+}
+
+#submitBtn
+{
+    border-radius: 8px;
+    box-shadow: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    box-shadow: 0px 0px 10px purple;
+}
+
+#viewAllBtn
+{
+    border-color: lightblue;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#versionTextLink
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 75%;
+}
